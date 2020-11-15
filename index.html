@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="slider/sss.min.js"></script>
+    <link rel="stylesheet" href="slider/sss.css" type="text/css" media="all">
+    <script>jQuery(function($) {$('.slider').sss({slideShow : false});});</script>
+</head>
+<script src="jquery-3.5.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<body>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">Ivan Zaharuck Portfolio</a>
+        <button class="navbar-toggler navbar-dark" type="button" datatoggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="page-header header container-fluid"> 
+        <div class="overlay"></div>
+        <div class="description">
+            <h1>Welcome to my Portfolio!</h1>
+            <br>
+            <button onclick="document.location='#projects'" class="btn btn-outline-secondary btn-lg">View projects</button>
+        </div>
+    </header>
+    <div id="projects" class="container features">
+        <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+        <h3 class="feature-title">Budget bot</h3>
+        <img src="images/budgetbotimg.jpg" class="img-fluid">
+        <p>Project Telegram-bot "Wallet of expenses and incomes" is designed for conducting the journal of the account of expenses and incomes. Budget bot provides the user with revenue expense statistics and balance. Statistics are considered both for months and for the whole period.
+            Budget bot is designed for a wide range of users who want to track their expenses and income.
+        <br>GitHub: <a href="https://github.com/ivan213k/BudgetBot">https://github.com/ivan213k/BudgetBot</a>
+        <br><a href="https://t.me/Expense_RevenueTracker_bot">https://t.me/Expense_RevenueTracker_bot</a>
+        </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+        <h3 class="feature-title">Documents generator</h3>
+        <img src="images/docsgeneratorimg.jpg" class="img-fluid">
+        <p>
+            The freelance project is designed to automate the manual completion of documents. Based on the entered data, it generates three documents (word, excel) according to a given template.
+            Technologies used: <a>#WPF MVVM</a>, <a>#OPEN XML</a>, <a>#FLUENT WPF library</a>.
+        <br>GitHub: <a href="https://github.com/ivan213k/DocumentsGenerator">https://github.com/ivan213k/DocsG</a>
+        </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Order managment system</h3>
+            <div class="slider">
+                <img class="img-fluid" src="images/ordermanagment/orderm.jpg" />
+                <img class="img-fluid" src="images/ordermanagment/1.jpg" />
+                <img class="img-fluid" src="images/ordermanagment/2.jpg" />
+                <img class="img-fluid" src="images/ordermanagment/3.jpg" />
+                <img class="img-fluid" src="images/ordermanagment/4.jpg" />
+                <img class="img-fluid" src="images/ordermanagment/5.jpg" />
+            </div>
+            <p>The freelance project is designed to automate work with orders.
+                Allows to create, view, edit, delete electronic orders. Also allows keeping track of the availability and condition of equipment in the warehouse.
+                The application is multi-user and distinguishes such roles as administrator, manager, user.
+                <br>Technologies used: #WPF MVVM, #Entity Framework Core, #Google Calendar API, #LINQ, #Fluent WPF.
+            <br>GitHub: <a href="https://github.com/ivan213k/Equipment-order-managment-system">Order managment system</a>
+            </p>
+        </div>
+    </div>
+    </div>
+    <footer id="contact" class="page-footer">
+        <div align="center" class="container">
+            <h6 class="text-uppercase font-weight-bold">Contact information</h6>
+            E-mail: <a href="mailto:ivan213k@gmail.com">ivan213k@gmail.com</a>
+            <br/>Telegram: <a href="https://t.me/ivan213k" target="_blank">https://t.me/ivan213k</a>
+            <br/>GitHub: <a href="https://github.com/ivan213k" target="_blank">https://github.com/ivan213k</a>
+            <br/>Mobile phone: <u>380982249573</u></p>
+            </div>
+    </footer>   
+    <script src="main.js"></script>
+</body>
+</html>
