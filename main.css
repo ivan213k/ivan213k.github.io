@@ -43,6 +43,9 @@ header{
 .description h1 {
         color: #6ab446;
 }
+.image-container{
+    height: 280px;
+}
 .page-footer {
     background-color: #222;
     color: #ccc;
